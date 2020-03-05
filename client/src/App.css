@@ -1,0 +1,30 @@
+body {
+  background-color: white;
+  height: 100vh;
+  width: 100vw
+}
+
+h1 {
+  color: white;
+  font-family: "Lucida Console", Monaco, monospace;
+  letter-spacing: 4.4px;
+  word-spacing: 3.6px;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  text-transform: capitalize;
+}
+
+h4 {
+  color: white;
+}
+
+@media(min-width: 768px){
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+}
